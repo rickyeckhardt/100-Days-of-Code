@@ -1,0 +1,26 @@
+.contact-us
+  form action="#"
+    label for="customerName"
+      | NAME 
+      em &#x2a;
+    input type="text" id="customerName" name="customerName" required=""
+    label for="customerEmail"
+      | EMAIL 
+      em &#x2a;
+    input type="email" id="customerEmail" name="customerEmail" required=""
+    label for="customerPhone" PHONE
+    input type="tel" id="customerPhone" name="customerPhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+    label for="orderNumber" ORDER NUMBER
+    input type="text" id="orderNumber" name="orderNumber"
+    label for="customerNote"
+      | YOUR MESSAGE 
+      em &#x2a;
+    textarea rows="4" id="customerNote" name="customerNote" required=""
+    h3 Please provide all the information about your issue you can.
+    label for="spamProtection"
+      | SPAM PROTECTION 
+      em &#x2a; 
+      span &nbsp;&nbsp;&nbsp;&nbsp;What day comes before July 11th?
+    input type="text" id="spamProtection" name="spamProtection"
+    button  id="customerOrder" SUBMIT
+  
