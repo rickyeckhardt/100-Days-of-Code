@@ -21,24 +21,13 @@ body {
   box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px black;
 }
 
-label, input {
+input {
   display: block;
   width: 100%;
   font-size: 14pt;
   line-height: 28pt;
   font-family: "Fjalla One";
-}
-
-input {
   margin-bottom: 28pt;
-}
-
-em {
-  color: #f45702;
-  font-weight: bold;
-}
-
-input {
   border: none;
   border-bottom: 5px solid black;
   background: #f8f4e5;
@@ -48,16 +37,15 @@ input {
   color: black;
 }
 
-input:focus, textarea:focus {
+input:focus {
   border-bottom: 5px solid #ffa580;
 }
 
 button {
   display: block;
-  float: right;
+  margin: 0 auto;
   line-height: 28pt;
   padding: 0 20px;
-  border: none;
   background: #ffa580;
   letter-spacing: 2px;
   transition: 0.2s all ease-in-out;
@@ -77,11 +65,8 @@ button:hover {
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus {
-  border: 1px solid #6bd4b1;
+input:-webkit-autofill:focus {
+  border-bottom: 5px solid #95a4ff;
   -webkit-text-fill-color: #2A293E;
   -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
   transition: background-color 5000s ease-in-out 0s;
