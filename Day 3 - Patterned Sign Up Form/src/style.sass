@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap')
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: 'Roboto Slab'
+  font-weight: normal
+  color: rgb(179, 55, 53)
+
+body
+  display: grid
+  height: 100vh
+  width: 100vw
+  align-items: center
+  justify-items: center
+  background: #f1dbd9
+  
+.signup
+  position: relative
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-1212209-jpeg.jpg")
+  height: 700px
+  width: 300px
+  overflow: hidden
+  padding-top: 280px
+  padding-left: 15px
+  z-index: 1
+  border-radius: 5px
+  
+.diagonal
+  position: absolute
+  height: 400px
+  width: 700px
+  top: 180px
+  left: -270px
+  background: white
+  transform: rotate(-25deg)
+  z-index: -1
+  border: 5px solid rgb(179, 55, 53)
+  
+h1
+  margin-bottom: 20px
+  font-size: 2.25em
+  
+input, button
+  line-height: 28px
+  font-size: 12px
+  border: none
+  outline: none
+  
+input
+  width: 60%
+  border-bottom: 1px solid rgb(179, 55, 53)
+
+button
+  margin-top: 20px
+  border: 1px solid rgb(179, 55, 53)
+  padding: 0 10px
+  transition: .2s all ease-in-out
+  background: #f1dbd9
+  
+button:hover
+  background: rgb(179, 55, 53)
+  color: white
+
+span
+  font-size: 10px
