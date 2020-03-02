@@ -4,4 +4,5 @@ I want to start 2020 off with pusher leaner, cleaner, and overall just better co
 
 #### Week 1 - Form Elements
 1. [Day 1 - Colorful Contact Form](https://codepen.io/rickyeckhardt/full/zYGwaKr)
-2. [Day 2 - Abstract Signup Form](https://codepen.io/rickyeckhardt/full/poJwRRb)
+2. [Day 2 - Abstract Sign Up Form](https://codepen.io/rickyeckhardt/full/poJwRRb)
+3. [Day 3 - Patterned Sign Up Form](https://codepen.io/rickyeckhardt/full/qBdjKPq)
