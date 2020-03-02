@@ -1,4 +1,4 @@
-# Email Sign Up Form - Day 4 - 100 DAYS - 2020
+# Anthropologie Email Sign Up Form - Day 4 - 100 DAYS - 2020
  _A Pen created at CodePen.io. Original URL: [https://codepen.io/rickyeckhardt/pen/yLNXwVO](https://codepen.io/rickyeckhardt/pen/yLNXwVO).
 
  Day 4 - 100 Days of Code
