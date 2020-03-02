@@ -6,3 +6,4 @@ I want to start 2020 off with pusher leaner, cleaner, and overall just better co
 1. [Day 1 - Colorful Contact Form](https://codepen.io/rickyeckhardt/full/zYGwaKr)
 2. [Day 2 - Abstract Sign Up Form](https://codepen.io/rickyeckhardt/full/poJwRRb)
 3. [Day 3 - Patterned Sign Up Form](https://codepen.io/rickyeckhardt/full/qBdjKPq)
+4. [Day 4 - Anthropologie Sign Up Form](https://codepen.io/rickyeckhardt/full/yLNXwVO)
