@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400,600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-items: center;
+  background: #fff8dc;
+}
+
+.signup-form {
+  height: 725px;
+  width: 725px;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2211858-jpeg.jpg") center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+}
+
+h1, h2 {
+  color: #fff9d9;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: "Playfair Display";
+}
+
+h1:nth-of-type(1) {
+  font-size: 28px;
+  letter-spacing: 4px;
+}
+
+h1:nth-of-type(2) {
+  font-size: 42px;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 40px 0;
+}
+
+h2, p, input, button {
+  font-family: "Open Sans Condensed";
+}
+
+input {
+  border: 1px solid black;
+}
+
+input, button {
+  width: 70%;
+  line-height: 60px;
+  height: 60px;
+  padding-left: 5px;
+  font-size: 24px;
+}
+
+p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  color: #fff9d9;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 40px;
+  border: none;
+  color: white;
+}
+
+button:nth-of-type(1) {
+  background: #8fb8c5;
+}
+
+button:nth-of-type(2) {
+  background: #236385;
+}
+
+.phone-card button {
+  height: 120px;
+  line-height: 30px;
+  background: #305e7e;
+}
+
+fieldset {
+  border: 0 none;
+  position: relative;
+}
+fieldset:not(:first-of-type) {
+  display: none;
+}
