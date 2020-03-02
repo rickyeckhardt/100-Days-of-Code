@@ -3,7 +3,7 @@
 
  Day 4 - 100 Days of Code
 
-A fun quick email and phone signup form based on Anthropolgie. I love the colors and layout. The animation could be smoother, but I did not want to spend too much time on this pen, so I pulled the animation from another pen that was forked. 
+A fun quick email and phone signup form based on Anthropologie. I love the colors and layout. The animation could be smoother, but I did not want to spend too much time on this pen, so I pulled the animation from another pen that was forked. 
 
 This would be an easy drop in for an overlay to get users to sign up! 
 
