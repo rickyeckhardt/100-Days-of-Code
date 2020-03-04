@@ -67,7 +67,7 @@ body {
 }
 
 .right-container {
-  background: #F7B1AB;
+  background: #f9c7c2;
   display: grid;
   grid-template-areas: "." ".";
   width: 500px;
@@ -127,16 +127,28 @@ body {
   padding: 5px 40px;
 }
 .right-container footer button {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   height: 38px;
   line-height: 38px;
   width: 100px;
+  border-radius: 19px;
+  font-family: "Montserrat", sans-serif;
 }
 .right-container footer #back {
-  background: rgba(0, 0, 0, 0.1);
+  background: #fff;
+  transition: .2s all ease-in-out;
+}
+.right-container footer #back:hover {
+  background: #171A2B;
+  color: white;
 }
 .right-container footer #next {
-  background: #F7B1AB;
+  background: #807182;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.right-container footer #next:hover {
+  background: #171A2B;
 }
 
 .pets-name label, .pets-breed label, .pets-birthday label, .pets-gender label, .pets-spayed-neutered label, .pets-weight label {

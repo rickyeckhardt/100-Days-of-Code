@@ -77,7 +77,7 @@ body {
 }
 
 .right-container {
-    background: $primary-bg-color;
+    background: lighten($primary-bg-color, 5%);
     display: grid;
     grid-template-areas: "." ".";
     width: 500px;
@@ -147,18 +147,32 @@ body {
       padding: 5px 40px;
   
       & button {
-        border: 1px solid $form-border-color;
+        border: 1px solid rgba(0,0,0,.2);
         height: 38px;
         line-height: 38px;
         width: 100px;
+        border-radius: 19px;
+        font-family: $font-family;
       }
   
       & #back {
-        background: rgba(0,0,0,.1);
+        background: #fff;
+        transition: .2s all ease-in-out;
+        
+        &:hover {
+          background: #171A2B;
+          color: white;
+        }
       }
   
       & #next {
-        background: $primary-bg-color;
+        background: $secondary-bg-color;
+        border: 1px solid transparent;
+        color: #fff;
+        
+        &:hover {
+          background: #171A2B;
+        }
       }
     }
 }
