@@ -11,4 +11,5 @@ I want to start 2020 off with pusher leaner, cleaner, and overall just better co
 6. [Day 6 - Wedding Invite ](https://codepen.io/rickyeckhardt/full/mdJBRmK)
 7. [Day 7 - Better Together Contact Form](https://codepen.io/rickyeckhardt/full/abOLrBx)
 
-#### Week 2 - Animation or Art?
+#### Week 2 - Art Pieces
+8. [Day 8 - CMYK Generative Art](https://codepen.io/rickyeckhardt/full/poJdyVZ)
