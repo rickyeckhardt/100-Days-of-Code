@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Spartan:400,700&display=swap')
+
+$font-color: #042C4C
+$primary-accent: #F74005
+$font-family-sans-serif: 'Spartan', sans-serif
+$font-family-serif:  'Roboto Slab', serif
+$font-size-form: 18px
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  background: #04ABE3
+
+.work-with-us
+  display: grid
+  grid-template-areas: "form illustration"
+  grid-template-columns: 2fr 1.25fr
+  max-width: 1000px
+  background: white
+  margin: 0 auto
+  
+.form
+  grid: form
+  padding: 50px 50px
+  
+  & h1
+    font-size: 28px
+    margin-bottom: 100px
+    font-weight: normal
+    font-family: $font-family-sans-serif
+    
+  & h2
+    font-size: 28px 
+    line-height: 40px
+    font-family: $font-family-serif
+  
+  & form
+    margin-top: 100px
+    
+  & label, input, textarea, button
+    display: block
+    outline: none
+    font-family: $font-family-sans-serif
+    font-size: $font-size-form
+    width: 100%
+      
+  & label, input
+    border: 0
+    height: 40px 
+    line-height: 40px
+      
+  & label
+      
+  & input
+    border-bottom: 2px solid #000
+    margin-bottom: 40px
+      
+  & textarea
+    line-height: 40px 
+    border: 2px solid #000
+    margin-bottom: 20px
+    resize: none
+    padding: 5px 
+    
+  & input, textarea
+    &:focus
+        border-color: $primary-accent
+        color: $primary-accent
+    
+      
+  & button
+    height: 50px
+    width: 150px
+    line-height: 50px
+    border: 2px solid #000
+    background: #000
+    color: #fff
+    transition: .2s all ease-in-out
+    
+    &:hover
+      background: #fff
+      color: #000
+      font-weight: bold
+   
+  
+.illustration
+  padding-top: 100px
+  grid: illustration
+  
+  & h1
+    font-family: $font-family-serif
+    font-size: 28px
+    font-weight: normal
+    margin-bottom: 40px
+    transition: .2s all ease-in-out
+    
+    &:hover
+      text-decoration: underline
+    
+  & h2
+    font-family: $font-family-sans-serif
+    font-size: 18px
+    font-weight: normal
+    margin-bottom: 20px
+  
+  & img
+    width: 100%
+    
+  & .link-rollup
+    padding: 145px 0 50px 20px
+  

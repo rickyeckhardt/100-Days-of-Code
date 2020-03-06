@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Spartan:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #04ABE3;
+}
+
+.work-with-us {
+  display: grid;
+  grid-template-areas: "form illustration";
+  grid-template-columns: 2fr 1.25fr;
+  max-width: 1000px;
+  background: white;
+  margin: 0 auto;
+}
+
+.form {
+  grid: form;
+  padding: 50px 50px;
+}
+.form h1 {
+  font-size: 28px;
+  margin-bottom: 100px;
+  font-weight: normal;
+  font-family: "Spartan", sans-serif;
+}
+.form h2 {
+  font-size: 28px;
+  line-height: 40px;
+  font-family: "Roboto Slab", serif;
+}
+.form form {
+  margin-top: 100px;
+}
+.form label, .form input, .form textarea, .form button {
+  display: block;
+  outline: none;
+  font-family: "Spartan", sans-serif;
+  font-size: 18px;
+  width: 100%;
+}
+.form label, .form input {
+  border: 0;
+  height: 40px;
+  line-height: 40px;
+}
+.form input {
+  border-bottom: 2px solid #000;
+  margin-bottom: 40px;
+}
+.form textarea {
+  line-height: 40px;
+  border: 2px solid #000;
+  margin-bottom: 20px;
+  resize: none;
+  padding: 5px;
+}
+.form input:focus, .form textarea:focus {
+  border-color: #F74005;
+  color: #F74005;
+}
+.form button {
+  height: 50px;
+  width: 150px;
+  line-height: 50px;
+  border: 2px solid #000;
+  background: #000;
+  color: #fff;
+  transition: 0.2s all ease-in-out;
+}
+.form button:hover {
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+.illustration {
+  padding-top: 100px;
+  grid: illustration;
+}
+.illustration h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  transition: 0.2s all ease-in-out;
+}
+.illustration h1:hover {
+  text-decoration: underline;
+}
+.illustration h2 {
+  font-family: "Spartan", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.illustration img {
+  width: 100%;
+}
+.illustration .link-rollup {
+  padding: 145px 0 50px 20px;
+}
